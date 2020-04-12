@@ -18,4 +18,7 @@ struct Point
   int y;
 } ;
 
-void get_closest_food(struct Point food_points[], int points_length, struct Point current_location, struct Point *closest_food_location);
+typedef double DISTANCE;
+typedef struct Point POINT;
+
+void get_closest_food(POINT food_points[], int points_length, POINT current_location, POINT *closest_food_location);
