@@ -12,6 +12,8 @@ Location of organism: [69 7],   Closest food target : [55 38]
 Location of organism: [10 94],  Closest food target : [18 76]
 Location of organism: [36 27],  Closest food target : [55 38]
 */
+#define SEVEN_TIMES for (int i = 0; i < points_length; i++)
+
 struct Point
 {
   int x;
